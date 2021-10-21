@@ -1,0 +1,50 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+
+#header{
+    display: flex;
+}
+.header-part{
+    width: 50%;
+    padding: 5%;
+}
+.text-clr{
+    color: orange;
+}
+h1{
+    color: rgb(77, 74, 74);
+    font-size: 60px;
+}
+h2{
+    color: rgb(119, 116, 116);
+    text-align:justify;
+  
+}
+
+
+.btn-clr{
+    
+    text-decoration: none;
+    text-align: center;
+    background-image: linear-gradient(to right,orange,rgb(231, 109, 9));
+    color: white;
+    font-size: 24px;
+    border-radius: 50px;
+    padding: 20px 40px;
+    border: none;
+    display: inline-block;
+    height: 40px;
+    width:  150px;
+    margin-top: 40px;
+
+    
+    
+}
+
+
+.header-part img{
+    width: 100%;
+}
