@@ -105,13 +105,13 @@ h2{
 .img-set{
     display: flex;
     padding: 30px;
-    margin-left: 19%;
+    margin-left: 15%;
 }
 
     
 div.img {
     
-    margin: 20px;
+    margin: 40px;
     border-radius: 20px 20px;
     border: 1px solid #ccc;
     height: 550px;
@@ -142,7 +142,7 @@ div.img {
     text-align: center;
     border-radius: 25px;
     padding: 0 40px;
-    margin: 100px 100px;
+    margin: 80px 285px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .bar-area div{
@@ -150,6 +150,25 @@ div.img {
     padding: 25px 0 25px 0;
     
 }
+.footer-part{
+    background-color: rgb(2, 2, 27);
+    height: 250px;
+    width: 100%;
+    padding: 10px;
+}
+.text-food-clr{
+    color: orange;
+    padding: 5px;
+
+}
+.text{
+    
+    color: rgb(180, 172, 172);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
 
 
 
