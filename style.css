@@ -103,7 +103,7 @@ h2{
 }
 
 .img-set{
-
+    display: flex;
     padding: 30px;
     margin-left: 19%;
 }
@@ -114,7 +114,6 @@ div.img {
     margin: 20px;
     border-radius: 20px 20px;
     border: 1px solid #ccc;
-    float: left;
     height: 550px;
     width: 300px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -138,5 +137,19 @@ div.img {
     text-align:left;
 
   }
+.bar-area{
+    display: flex;
+    text-align: center;
+    border-radius: 25px;
+    padding: 0 40px;
+    margin: 100px 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bar-area div{
+    width: 100%;
+    padding: 25px 0 25px 0;
+    
+}
+
 
 
