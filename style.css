@@ -1,6 +1,8 @@
 body{
+
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    
    
 }
 
@@ -18,15 +20,19 @@ body{
 }
 h1{
     color: rgb(77, 74, 74);
-    font-size: 60px;
+    font-size: 50px;
+    line-height: 35px;
+    
 }
+
 .header-title{
     font-family: sans-serif;
     font-style: regular;
-    font-size: 30px;
-    line-height: 50px;
+    font-size: 20px;
+    line-height: 40px;
     color: rgb(119, 116, 116);
     text-align:left;
+    margin-top: 50px;
   
 }
 
@@ -39,15 +45,18 @@ h1{
     color: white;
     font-size: 24px;
     border-radius: 50px;
-    padding: 20px 40px;
+    padding: 20px 30px;
     border: none;
     display: inline-block;
     height: 40px;
     width:  150px;
-    margin-top: 40px;
-
+    margin-top: 20px;
+   
     
     
+}
+.about-part{
+    font-size: 40px;
 }
 
 
@@ -66,15 +75,18 @@ h1{
     padding: 5%;
 
 }
-h2{
+.about-area{
+    text-align: left;
     font-size: 40px;
+    margin-top: 5px;
 }
+
 .text-font{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 15px;
     font-style: regular;
-    line-height: 40px;
-    margin-top: 50px;
+    line-height: 30px;
+    margin-top: 10px;
 }
 .about-part img{
     width: 58%;
@@ -105,32 +117,34 @@ h2{
 .img-set{
     display: flex;
     padding: 30px;
-    margin-left: 15%;
+    margin-left: 4.5%;
 }
 
     
-div.img {
+div.image {
     
-    margin: 40px;
+    margin: 25px;
     border-radius: 20px 20px;
     border: 1px solid #ccc;
     height: 550px;
-    width: 300px;
+    width: 340px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
     
-    div.img img {
+    div.image img {
     width: 93%;
     height: auto;
-    margin: 10px;
+    margin: 12px;
     
   }
   
   div.desc {
+    
     padding: 15px;
     text-align:left;
   }
   div.reci-desc{
+    font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 24px;
     padding: 15px;
@@ -142,7 +156,7 @@ div.img {
     text-align: center;
     border-radius: 25px;
     padding: 0 40px;
-    margin: 80px 285px;
+    margin: 70px 115px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .bar-area div{
@@ -168,6 +182,8 @@ div.img {
     text-align: center;
     
 }
+
+
 
 
 
